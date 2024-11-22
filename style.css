@@ -1,0 +1,448 @@
+
+body, html {
+height: 100%;
+display: flex;
+flex-direction: column;
+background-color: rgb(57, 50, 37);
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+background-position: center;
+padding-left: auto;
+text-align: center;
+}
+
+.tophalf{
+
+background-size: cover;
+background-position: center;
+background-image: url(photos/PLACE_HOLDER.jpg);
+position: relative;
+}
+
+.bottomhalf{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+@font-face {
+font-family: ORGANICAL; src: url('ORGANICAL.ttf'); 
+} 
+
+@font-face {
+font-family: SQ; src: url('sqroute.ttf'); 
+} 
+
+h1 {
+font-family: SQ;
+text-align:left;
+color: rgb(172, 194, 106);
+margin: 0;
+}
+
+h3{
+text-align:left;
+color: rgb(172, 194, 106);
+margin: 0;
+font-family: SQ;
+}
+
+footer{
+color: rgb(165, 199, 65);
+font-family:Arial, Helvetica, sans-serif;
+text-align: end;
+}
+
+@media only screen and (min-width: 300px) {
+
+.tophalf {
+height: 80vh;
+min-height: 200px; 
+background-size: cover;
+background-image: url('photos/17.jpg'); 
+}
+
+.a1{
+position: absolute;
+top: 120px;
+right: 180px;
+}
+
+.page1{
+width: 90px;
+height: 90px;
+}
+
+.a2{
+position: absolute;
+top: 300px;
+right: 30px;
+}
+
+.page2{
+width: 90px;
+height: 90px;
+}
+
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 50px;
+letter-spacing: 4px;
+}
+
+h3{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 30px; 
+letter-spacing: 5px;
+}
+}
+
+@media only screen and (min-width: 500px) {
+
+.a1{
+position: absolute;
+top: 120px;
+right: 300px;
+}
+
+.page1{
+width: 120px;
+height: 120px;
+}
+
+.a2{
+position: absolute;
+top: 300px;
+right: 30px;
+}
+
+.page2{
+width: 120px;
+height: 120px;
+}
+
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 87px;
+letter-spacing: 4px;
+}
+
+h3{
+padding-left: 7px;
+padding-top: 10px;
+font-size: 54px; 
+letter-spacing: 5px;
+} 
+}
+
+@media only screen and (min-width: 800px) {
+
+.tophalf {
+height: 80vh;
+min-height: 200px; 
+background-size: cover;
+background-image: url('photos/17.jpg'); 
+}
+
+.a1{
+position: absolute;
+top: 400px;
+right: 700px;
+}
+
+.page1{
+width: 110px;
+height: 110px;
+}
+
+.a2{
+position: absolute;
+top: 200px;
+right: 80px;
+}
+
+.page2{
+width: 110px;
+height: 110px;
+}
+
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 87px;
+letter-spacing: 10px;
+}
+
+h3{
+padding-left: 7px;
+padding-top: 10px;
+font-size: 54px; 
+letter-spacing: 10px;
+} 
+}
+
+@media only screen and (min-width: 1000px) {
+
+.tophalf {
+height: 80vh;
+min-height: 200px; 
+background-size: cover;
+background-image: url('photos/17.jpg'); 
+}
+
+.a1{
+position: absolute;
+top: 400px;
+right: 600px;
+}
+
+.page1{
+width: 120px;
+height: 120px;
+}
+
+.a2{
+position: absolute;
+top: 300px;
+right: 100px;
+}
+
+.page2{
+width: 120px;
+height: 120px;
+}
+
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 87px;
+letter-spacing: 15px;
+}
+
+h3{
+padding-left: 7px;
+padding-top: 10px;
+font-size: 54px; 
+letter-spacing: 15px;
+} 
+}
+
+@media only screen and (min-width: 1065px){
+
+    .tophalf {
+        height: 80vh;
+        min-height: 200px; 
+        background-size: cover;
+        background-image: url('photos/17.jpg'); 
+        }
+        
+        .a1{
+        position: absolute;
+        top: 350px;
+        right: 800px;
+        }
+        
+        .page1{
+        width: 130px;
+        height: 130px;
+        }
+        
+        .a2{
+        position: absolute;
+        top: 100px;
+        right: 200px;
+        }
+        
+        .page2{
+        width: 130px;
+        height: 130px;
+        }
+        
+        h1{
+        padding-left: 7px;
+        padding-top: 20px;
+        font-size: 95px;
+        letter-spacing: 15px;
+        }
+        
+        h3{
+            padding-left: 7px;
+            padding-top: 3px;
+            font-size: 30px; 
+            letter-spacing: 40px;
+        } 
+
+        .footer{
+            font-size:15px;
+        }
+
+}
+
+@media only screen and (min-width: 1345px){
+
+    .tophalf {
+        height: 80vh;
+        min-height: 200px; 
+        background-size: cover;
+        background-image: url('photos/17.jpg'); 
+        }
+        
+        .a1{
+        position: absolute;
+        top: 350px;
+        right: 1000px;
+        }
+        
+        .page1{
+        width: 150px;
+        height: 150px;
+        }
+        
+        .a2{
+        position: absolute;
+        top: 100px;
+        right: 300px;
+        }
+        
+        .page2{
+        width: 150px;
+        height: 150px;
+        }
+        
+        h1{
+        padding-left: 7px;
+        padding-top: 20px;
+        font-size: 105px;
+        letter-spacing: 15px;
+        }
+        
+        h3{
+        padding-left: 7px;
+        padding-top: 3px;
+        font-size: 30px; 
+        letter-spacing: 47px;
+        } 
+
+        .footer{
+            font-size:15px;
+        }
+
+}
+
+@media only screen and (min-width: 1500px){
+
+    .tophalf {
+        height: 80vh;
+        min-height: 200px; 
+        background-size: cover;
+        background-image: url('photos/17.jpg'); 
+        }
+        
+        .a1{
+        position: absolute;
+        top: 350px;
+        right: 1200px;
+        }
+        
+        .page1{
+        width: 170px;
+        height: 170px;
+        }
+        
+        .a2{
+        position: absolute;
+        top: 100px;
+        right: 500px;
+        }
+        
+        .page2{
+        width: 170px;
+        height: 170px;
+        }
+        
+        h1{
+        padding-left: 7px;
+        padding-top: 20px;
+        font-size: 115px;
+        letter-spacing: 15px;
+        }
+        
+        h3{
+            padding-left: 7px;
+            padding-top: 3px;
+            font-size: 30px; 
+            letter-spacing: 54px;
+        } 
+
+        .footer{
+            font-size:15px;
+        }
+
+}
+
+@media only screen and (min-width: 1700px){
+
+    .tophalf {
+        height: 900px;
+        min-height: 200px; 
+        background-size: cover;
+        background-image: url('photos/17.jpg'); 
+        }
+        
+        .a1{
+        position: absolute;
+        top: 350px;
+        right: 1200px;
+        }
+        
+        .page1{
+        width: 200px;
+        height: 200px;
+        }
+        
+        .a2{
+        position: absolute;
+        top: 100px;
+        right: 500px;
+        }
+        
+        .page2{
+        width: 200px;
+        height: 200px;
+        }
+        
+        h1{
+        padding-left: 7px;
+        padding-top: 20px;
+        font-size: 130px;
+        letter-spacing: 15px;
+        }
+        
+        h3{
+            padding-left: 7px;
+            padding-top: 3px;
+            font-size: 30px; 
+            letter-spacing: 62px;
+        } 
+
+        .footer{
+            font-size:15px;
+        }
+
+}
+
+
+
+
