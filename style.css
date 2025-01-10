@@ -60,6 +60,7 @@ footer{
 color: rgb(165, 199, 65);
 font-family:Arial, Helvetica, sans-serif;
 text-align: end;
+padding-top: 5em;
 }
 
 @media only screen and (min-width: 300px) {
@@ -95,7 +96,7 @@ height: 90px;
 
 h1{
 padding-left: 7px;
-padding-top: 20px;
+padding-top: 8px;
 font-size: 50px;
 letter-spacing: 4px;
 }
@@ -105,6 +106,10 @@ padding-left: 7px;
 padding-top: 20px;
 font-size: 30px; 
 letter-spacing: 5px;
+}
+
+footer{
+    font-size: 7px;
 }
 }
 
@@ -134,7 +139,7 @@ height: 120px;
 
 h1{
 padding-left: 7px;
-padding-top: 20px;
+padding-top: 8px;
 font-size: 87px;
 letter-spacing: 4px;
 }
@@ -145,6 +150,10 @@ padding-top: 10px;
 font-size: 54px; 
 letter-spacing: 5px;
 } 
+
+footer{
+    font-size: 9px;
+}
 }
 
 @media only screen and (min-width: 800px) {
@@ -180,7 +189,7 @@ height: 110px;
 
 h1{
 padding-left: 7px;
-padding-top: 20px;
+padding-top: 8px;
 font-size: 87px;
 letter-spacing: 10px;
 }
@@ -191,6 +200,10 @@ padding-top: 10px;
 font-size: 54px; 
 letter-spacing: 10px;
 } 
+
+footer{
+    font-size: 10px;
+}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -226,7 +239,7 @@ height: 120px;
 
 h1{
 padding-left: 7px;
-padding-top: 20px;
+padding-top: 10px;
 font-size: 87px;
 letter-spacing: 15px;
 }
@@ -237,6 +250,10 @@ padding-top: 10px;
 font-size: 54px; 
 letter-spacing: 15px;
 } 
+
+footer{
+    font-size: 12px;
+}
 }
 
 @media only screen and (min-width: 1065px){
@@ -272,7 +289,7 @@ letter-spacing: 15px;
         
         h1{
         padding-left: 7px;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 95px;
         letter-spacing: 15px;
         }
@@ -286,6 +303,10 @@ letter-spacing: 15px;
 
         .footer{
             font-size:15px;
+        }
+
+        footer{
+            font-size: 14px;
         }
 
 }
@@ -323,7 +344,7 @@ letter-spacing: 15px;
         
         h1{
         padding-left: 7px;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 105px;
         letter-spacing: 15px;
         }
@@ -337,6 +358,10 @@ letter-spacing: 15px;
 
         .footer{
             font-size:15px;
+        }
+
+        footer{
+            font-size: 16px;
         }
 
 }
@@ -374,7 +399,7 @@ letter-spacing: 15px;
         
         h1{
         padding-left: 7px;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 115px;
         letter-spacing: 15px;
         }
@@ -388,6 +413,10 @@ letter-spacing: 15px;
 
         .footer{
             font-size:15px;
+        }
+
+        footer{
+            font-size: 20px;
         }
 
 }
@@ -425,7 +454,7 @@ letter-spacing: 15px;
         
         h1{
         padding-left: 7px;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 130px;
         letter-spacing: 15px;
         }
@@ -437,9 +466,10 @@ letter-spacing: 15px;
             letter-spacing: 62px;
         } 
 
-        .footer{
-            font-size:15px;
+        footer{
+            font-size: 23px;
         }
+    
 
 }
 
