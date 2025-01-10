@@ -1,0 +1,150 @@
+html{
+height: 100%;
+}
+
+body{
+background-position: center top;
+background-size:100%;
+background-repeat: no-repeat;
+background-image: url(photos/background_accueil.jpg);
+background-color: black;
+}
+
+
+
+@font-face {
+font-family: SQ; src: url('sqroute.ttf'); 
+}     
+
+h1{
+font-family: SQ;
+text-align:left;
+color: rgb(172, 194, 106);
+margin: 0;
+}
+
+h3{
+text-align:left;
+color: rgb(172, 194, 106);
+margin: 0;
+font-family: SQ;
+}
+
+h4{
+    text-align:left;
+color: rgb(172, 194, 106);
+margin: 0;
+font-family: monospace ;
+font-style: bold;
+padding-top: 2em;
+padding-left: 7px;
+letter-spacing: 2px;
+}
+
+.mail_button{
+    text-align:left;
+    color: rgb(172, 194, 106);
+    margin: 0;
+    font-family: monospace ;
+    font-style: bold;
+    padding-top: 4em;
+    padding-left: 7px;
+    letter-spacing: 2px;
+}
+
+p{
+padding-top: 1.5em;
+text-align: left;
+color:  rgb(205, 221, 157);
+margin: 0;
+font-family: monospace;
+
+}
+
+footer{
+padding-top: 465%;
+color: rgb(172, 194, 106);
+
+}
+
+@media only screen and (min-width:300px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 30px;
+letter-spacing: 4px;
+}
+
+h3{
+    padding-left: 7px;
+    padding-top: 10vh;
+    font-size: 17px; 
+    letter-spacing: 5px;
+    }
+}
+
+p{
+    padding-left: 7px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width:500px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 57px;
+letter-spacing: 4px;
+}
+
+}
+
+@media only screen and (min-width:800px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 67px;
+letter-spacing: 10px;
+}
+
+}
+
+@media only screen and (min-width:1000px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 67px;
+letter-spacing: 15px;
+}
+
+}
+
+@media only screen and (min-width:1300px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 85px;
+letter-spacing: 15px;
+}
+
+}
+
+@media only screen and (min-width:1500px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 95px;
+letter-spacing: 15px;
+}
+
+}
+
+@media only screen and (min-width:1700px){
+h1{
+padding-left: 7px;
+padding-top: 20px;
+font-size: 110px;
+letter-spacing: 15px;
+}
+}
+
