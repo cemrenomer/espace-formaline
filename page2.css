@@ -1,65 +1,77 @@
 html{
-    height: 100%;
-    }
-    
-    body{
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: rgb(65, 60, 57);
-    }
-    
-    
-    @font-face {
-    font-family: SQ; src: url('sqroute.ttf'); 
-    }     
-    
-    h1{
-    font-family: SQ;
-    text-align:left;
-    color: rgb(172, 194, 106);
-    margin: 0;
-    }
-    
-    h3{
-    text-align:left;
-    color: rgb(172, 194, 106);
-    margin: 0;
-    font-family: SQ;
-    }
-    
-    h4{
-    text-align:left;
-    color: rgb(172, 194, 106);
-    margin: 0;
-    font-family: monospace ;
-    font-style: bold;
-    padding-top: 2em;
-    padding-left: 7px;
-    letter-spacing: 2px;
-    }
-    
-    .mail_button{
-    text-align:left;
-    color: rgb(172, 194, 106);
-    margin: 0;
-    font-family: monospace ;
-    font-style: bold;
-    padding-top: 4em;
-    padding-left: 7px;
-    letter-spacing: 2px;
-    }
-    
-    p{
-    padding-top: 1.5em;
-    text-align: left;
-    color:  rgb(205, 221, 157);
-    margin: 0;
-    font-family: monospace;
-    
-    }
-    
-    footer{
-    padding-top: 465%;
-    color: rgb(172, 194, 106);
-    }
+height: 100%;
+}
+
+body{
+background-position: center top;
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgb(65, 60, 57);
+}
+
+
+@font-face {
+font-family: SQ; src: url('sqroute.ttf'); 
+}     
+
+h1{
+font-family: SQ;
+text-align: center;
+color: rgb(172, 194, 106);
+margin: 0;
+font-size: 180%;
+
+}
+
+h3{
+text-align: center;
+color: rgb(172, 194, 106);
+margin: 0;
+font-family: SQ;
+
+}
+
+h4{
+text-align: center;
+color: rgb(172, 194, 106);
+margin: 0;
+font-family: monospace ;
+font-style: bold;
+padding-top: 2em;
+letter-spacing: 2px;
+}
+
+.OpenCall1{
+padding-top: 8%;
+padding-bottom: 8%;
+padding-left: 10%;
+width: 80%;
+height: 80%;
+
+}
+
+.mail_button{
+text-align: center;
+color: rgb(172, 194, 106);
+
+font-family: monospace ;
+font-style: bold;
+padding-top: 4em;
+display: block;
+letter-spacing: 2px;
+}
+
+p{
+padding-top: 1.5em;
+text-align: center;
+color:  rgb(205, 221, 157);
+margin: 0;
+font-family: monospace;
+
+}
+
+footer{
+padding-top: 465%;
+color: rgb(172, 194, 106);
+}
+
